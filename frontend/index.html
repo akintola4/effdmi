@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <title>Effdmi website</title>
+    <link rel="shortcut icon" href="../pictures/innovate.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="../fontawesome-free-6.3.0-web/css/fontawesome.css" rel="stylesheet">
@@ -15,17 +16,17 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg  fixed-top navbar-nav-scroll shadow p-3 mb-5 bg-body rounded navbar-light bg-light">
+    <header> 
+        <nav class="navbar navbar-expand-lg   fixed-top shadow p-3  bg-body rounded navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="../pictures/innovate.png" width="50" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="../pictures/innovate.png" width="50" alt="">EFFDMI</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -84,8 +85,7 @@
         </nav>
     </header>
     
-    <main class="container mx-auto ">
-
+    <main class="container mt-3 pt-5 ">  
         <section class="section-1 mt-5 row align-items-center  introduction" >
             <div class="introduction-description col-md-6 ">
                 <h1 class="">Welcome to the future of innovation in <span class="text-success">NIGERIA!!</span>  </h1>
@@ -99,7 +99,19 @@
                 <img src="../pictures/innovate.png"  width="400px" alt="">
             </div>
         </section>
-        <section class="section-2 mt-5 row align-items-center justify-content-between company-info">
+
+        <div>
+            <figure class="text-center mt-2">
+                <blockquote class="blockquote">
+                  <p>Without innovation we can never test the boundaries of life</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Foster <cite title="Source Title">software enginer</cite>
+                </figcaption>
+              </figure>
+        </div>
+
+        <section class="section-2  mt-5 row align-items-center justify-content-between company-info">
             <div class="company-info-1 col-md-6">
                 <p>WHO WE ARE</p>
                 <h1>A manufacturing solution-oriented NGO</h1>
@@ -111,19 +123,19 @@
             </div>
             <div class="company-info-2 gap-3 col-md-6 row">
                 <div class="company-info-2-1 card  card-body col-sm-4">
-                    <img src="" alt="">
+                    <i class="fa card-img-top fa-bullseye" aria-hidden="true" style="width: 500px;"></i>
                     <h3 class="card-title">Our Mission</h3>
                     <p class="text-justify card-text"> Efficiency Driven Manufacturing Initiative is a multicultural network of Nigerian scholars, with people …</p>
                     <button type="button" class="btn btn-outline-success">Read more</button> 
                 </div>
-                <div class="company-info-2-2 card card-body col-sm-4">
-                    <img src="" alt="">
+                <div class="company-info-2-2 card-outline-none card card-body col-sm-4">
+                    <i class="fa card-img-top fa-paper-plane" aria-hidden="true"></i>
                     <h3 class="card-title">Our Vision</h3>
                     <p class="card-text"> Our vision is building and shaping the future of manufacturing in Nigeria by nurturing driven individuals …</p>
                     <button type="button" class="btn btn-outline-success">Read more</button> 
                 </div>
                 <div class="company-info-2-3 card card-body col-sm-4">
-                    <img src="" alt="">
+                     <i class="fa card-img-top fa-handshake" aria-hidden="true"></i>
                     <h3 class="card-title">Our Values</h3>
                     <p class="card-text">Efficiency Driven
                         Teamwork
@@ -138,7 +150,7 @@
             <div class="program_title"></div>
             <div class="program_content">
                 <div class="program_1">
-                    <img src="" alt="">
+                    <img src="../" alt="">
                     <h3>Just pitch it</h3>
                     <p></p>
                     <p></p>
@@ -159,27 +171,44 @@
         </section>
         <section class="section-4 blog">
             <div class="blog_title"></div>
-            <div class="blog_content">
-                <div class="blog_1">
-                    <img src="" alt="">
+            <div class="blog_content gap-3 row" style="
+            flex-wrap: nowrap;
+            overflow: scroll;">
+                <div class="blog_1 card  col-4" style="min-width: 200px;">
+                    <div class="card-body">
+                        <img class="card-img"  src="../pictures/blog-post2.png"  alt="">
                     <p class="blog_time"></p>
-                    <h3></h3>
-                    <p></p>
-                    <a href="">Read More </a>
+                    <h3 class="card-title">Design</h3>
+                    <p class="card-description"></p>
+                    <button class="btn btn-outline-success" href="">Read More <span><i class="fas fa-arrow-right"></i></span></button>
+                    </div>
                 </div>
-                <div class="blog_2">
-                    <img src="" alt="">
+                <div class="blog_1 card  col-4" style="min-width: 200px;">
+                    <div class="card-body">
+                        <img class="card-img"  src="../pictures/blog-post2.png"  alt="">
                     <p class="blog_time"></p>
-                    <h3></h3>
-                    <p></p>
-                    <a href="">Read More </a>
+                    <h3 class="card-title">Design</h3>
+                    <p class="card-description"></p>
+                    <button class="btn btn-outline-success" href="">Read More <span><i class="fas fa-arrow-right"></i></span></button>
+                    </div>
                 </div>
-                <div class="blog_3">
-                    <img src="" alt="">
+                <div class="blog_1 card  col-4" style="min-width: 200px;">
+                    <div class="card-body">
+                        <img class="card-img"  src="../pictures/blog-post2.png"  alt="">
                     <p class="blog_time"></p>
-                    <h3></h3>
-                    <p></p>
-                    <a href="">Read More </a>
+                    <h3 class="card-title">Design</h3>
+                    <p class="card-description"></p>
+                    <button class="btn btn-outline-success" href="">Read More <span><i class="fas fa-arrow-right"></i></span></button>
+                    </div>
+                </div>
+                <div class="blog_1 card  col-4" style="min-width: 200px;">
+                    <div class="card-body">
+                        <img class="card-img"  src="../pictures/blog-post2.png"  alt="">
+                    <p class="blog_time"></p>
+                    <h3 class="card-title">Design</h3>
+                    <p class="card-description"></p>
+                    <button class="btn btn-outline-success" href="">Read More <span><i class="fas fa-arrow-right"></i></span></button>
+                    </div>
                 </div>
             </div>
         </section>
